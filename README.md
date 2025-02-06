@@ -6,7 +6,7 @@
 
 [![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
-Spectre.css is a lightweight, responsive and modern CSS framework.
+Spectre.css is a lightweight(very), responsive and modern CSS framework.
 
 - Lightweight (~10KB gzipped) starting point for your projects
 - Flexbox-based, responsive and mobile-friendly layout
