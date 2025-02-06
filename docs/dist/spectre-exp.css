@@ -5,8 +5,8 @@
 
 .form-autocomplete .form-autocomplete-input {
   align-content: flex-start;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-line-pack: start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -62,8 +62,8 @@
   background: #f7f8f9;
   border-top-left-radius: .1rem;
   border-top-right-radius: .1rem;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-align: center;
   font-size: .9rem;
   padding: .4rem;
@@ -71,8 +71,8 @@
 
 .calendar .calendar-header,
 .calendar .calendar-body {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-pack: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -106,7 +106,6 @@
 
 .calendar .calendar-date .date-item {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: transparent;
   border: .05rem solid transparent;
@@ -215,8 +214,8 @@
 .calendar.calendar-lg .calendar-body .calendar-date {
   border-bottom: .05rem solid #dadee4;
   border-right: .05rem solid #dadee4;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-direction: column;
   flex-direction: column;
   height: 5.5rem;
@@ -356,8 +355,8 @@
 
 .carousel .carousel-nav {
   bottom: .4rem;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-pack: center;
   justify-content: center;
   left: 50%;
@@ -504,7 +503,6 @@
   padding: .2rem .4rem;
   position: absolute;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
@@ -556,15 +554,14 @@
 }
 
 .filter .filter-body {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .meter {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #f7f8f9;
   border: 0;
@@ -621,8 +618,8 @@
 }
 
 .off-canvas {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-flow: nowrap;
   flex-flow: nowrap;
   height: 100%;
@@ -728,8 +725,8 @@
 .parallax .parallax-front {
   align-items: center;
   color: #fff;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-align: center;
   -ms-flex-pack: center;
   height: 100%;
@@ -847,7 +844,6 @@
 
 .progress {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #eef0f3;
   border: 0;
@@ -893,7 +889,6 @@
 
 .slider {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: transparent;
   display: block;
@@ -998,8 +993,8 @@
 }
 
 .timeline .timeline-item {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   margin-bottom: 1.2rem;
   position: relative;
 }
@@ -1008,7 +1003,7 @@
   background: #dadee4;
   content: "";
   height: 100%;
-  left: 11px;
+  left: 15px;
   position: absolute;
   top: 1.2rem;
   width: 2px;
@@ -1062,8 +1057,8 @@
 
 .viewer-360 {
   align-items: center;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-align: center;
   -ms-flex-direction: column;
   flex-direction: column;

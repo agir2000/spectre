@@ -113,10 +113,9 @@
   position: static;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .docs-content .s-title,
   .docs-content .s-subtitle {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 99;
@@ -228,7 +227,6 @@
 
 .docs-content .c-select-all {
   -webkit-user-select: all;
-  -moz-user-select: all;
   -ms-user-select: all;
   user-select: all;
 }
@@ -255,8 +253,8 @@
   background: #5755d9;
   border-radius: .1rem;
   color: #fff;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-align: center;
   -ms-flex-line-pack: distribute;
   font-size: 1.2rem;
@@ -299,8 +297,8 @@
 .docs-brand .docs-logo {
   align-items: center;
   border-radius: .1rem;
-  display: -ms-inline-flexbox;
   display: inline-flex;
+  display: -ms-inline-flexbox;
   -ms-flex-align: center;
   font-size: .7rem;
   height: 2rem;
@@ -579,7 +577,6 @@
 
 .searchbox__input {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none; 
   background: #fff !important;
   border: 0;
@@ -640,7 +637,6 @@
   text-align: center;
   top: 0;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   vertical-align: middle;
@@ -684,7 +680,6 @@
   right: 8px;
   top: 8px;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
