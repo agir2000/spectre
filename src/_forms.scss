@@ -273,14 +273,14 @@ textarea.form-input {
         border-left-width: 0;
         border-top-width: 0;
         content: "";
-        height: 9px;
+        height: 0.45rem;
         left: 50%;
-        margin-left: -3px;
-        margin-top: -6px;
+        margin-left: -0.15rem;
+        margin-top: -0.3rem;
         position: absolute;
         top: 50%;
         transform: rotate(45deg);
-        width: 6px;
+        width: 0.3rem;
       }
     }
     &:indeterminate + .form-icon {
@@ -289,13 +289,13 @@ textarea.form-input {
       &::before {
         background: $bg-color-light;
         content: "";
-        height: 2px;
+        height: 0.1rem;
         left: 50%;
-        margin-left: -5px;
-        margin-top: -1px;
+        margin-left: -0.23rem;
+        margin-top: -0.05rem;
         position: absolute;
         top: 50%;
-        width: 10px;
+        width: 0.5rem;
       }
     }
   }
@@ -311,12 +311,12 @@ textarea.form-input {
         background: $bg-color-light;
         border-radius: 50%;
         content: "";
-        height: 6px;
+        height: 0.33rem;
         left: 50%;
         position: absolute;
         top: 50%;
         transform: translate(-50%, -50%);
-        width: 6px;
+        width: 0.33rem;
       }
     }
   }
@@ -351,7 +351,7 @@ textarea.form-input {
   input {
     &:checked + .form-icon {
       &::before {
-        left: 14px;
+        left: 0.7rem;
       }
     }
     &:active + .form-icon {

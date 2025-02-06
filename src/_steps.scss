@@ -19,9 +19,14 @@
       height: 2px;
       left: -50%;
       position: absolute;
-      top: 9px;
+      top: ((($html-font-size)/2)-1);
       width: 100%;
     }
+    
+    .tooltip
+      {
+      position: static;
+      }
 
     a {
       color: $primary-color;
