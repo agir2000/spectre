@@ -280,7 +280,7 @@ template {
 
 html {
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 28px;
   line-height: 1.5;
   -webkit-tap-highlight-color: transparent;
 }
@@ -1533,23 +1533,23 @@ video.video-responsive::before {
 }
 
 .container.grid-xl {
-  max-width: 1296px;
+  max-width: 1302.4px;
 }
 
 .container.grid-lg {
-  max-width: 976px;
+  max-width: 982.4px;
 }
 
 .container.grid-md {
-  max-width: 856px;
+  max-width: 862.4px;
 }
 
 .container.grid-sm {
-  max-width: 616px;
+  max-width: 622.4px;
 }
 
 .container.grid-xs {
-  max-width: 496px;
+  max-width: 502.4px;
 }
 
 .show-xs,
@@ -2856,7 +2856,7 @@ summary.accordion-header::-webkit-details-marker {
   height: 2px;
   left: -50%;
   position: absolute;
-  top: 9px;
+  top: 13px;
   width: 100%;
 }
 
