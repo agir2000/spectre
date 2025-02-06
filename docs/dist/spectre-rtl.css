@@ -1135,12 +1135,12 @@ textarea.form-input.input-sm {
   background: #fff;
   border-radius: 50%;
   content: "";
-  height: .33rem;
+  height: .4rem;
   left: 50%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: .33rem;
+  width: .4rem;
 }
 
 .form-switch {
