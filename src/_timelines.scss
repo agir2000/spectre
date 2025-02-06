@@ -8,7 +8,7 @@
       background: $border-color;
       content: "";
       height: 100%;
-      left: 11px;
+      left: (($html-font-size)/2)+1;
       position: absolute;
       top: $unit-6;
       width: 2px;
