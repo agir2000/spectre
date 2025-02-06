@@ -281,7 +281,7 @@ template {
 
 html {
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   -webkit-tap-highlight-color: transparent;
 }
@@ -391,7 +391,7 @@ kbd {
   color: #fff;
   font-size: .7rem; 
   line-height: 1.25;
-  padding: .1rem .2rem;
+  padding: .05rem .2rem .1rem .2rem;
 }
 
 mark {
@@ -1391,13 +1391,12 @@ input.disabled + .form-icon {
   color: #455060;
   display: inline-block; 
   line-height: 1.25;
-  padding: .1rem .2rem;
+  padding: .05rem .2rem .1rem .2rem;
 }
 
 .label.label-rounded {
   border-radius: 5rem;
-  padding-left: .4rem;
-  padding-right: .4rem;
+  padding: 0 .4rem .1rem .4rem;
 }
 
 .label.label-primary {
@@ -1431,7 +1430,7 @@ code {
   color: #d73e48;
   font-size: 85%; 
   line-height: 1.25;
-  padding: .1rem .2rem;
+  padding: .05rem .2rem .1rem .2rem;
 }
 
 .code {
@@ -1535,23 +1534,23 @@ video.video-responsive::before {
 }
 
 .container.grid-xl {
-  max-width: 1299.2px;
+  max-width: 1296px;
 }
 
 .container.grid-lg {
-  max-width: 979.2px;
+  max-width: 976px;
 }
 
 .container.grid-md {
-  max-width: 859.2px;
+  max-width: 856px;
 }
 
 .container.grid-sm {
-  max-width: 619.2px;
+  max-width: 616px;
 }
 
 .container.grid-xs {
-  max-width: 499.2px;
+  max-width: 496px;
 }
 
 .show-xs,
@@ -2858,7 +2857,7 @@ summary.accordion-header::-webkit-details-marker {
   height: 2px;
   left: -50%;
   position: absolute;
-  top: 11px;
+  top: 9px;
   width: 100%;
 }
 
@@ -4784,7 +4783,7 @@ a.text-error:visited {
   background: #dadee4;
   content: "";
   height: 100%;
-  left: 13px;
+  left: 11px;
   position: absolute;
   top: 1.2rem;
   width: 2px;
