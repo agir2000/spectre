@@ -20,7 +20,7 @@ In the current release, the author has some minor problems when changing the bas
 - Components chips (fix position)
 - Components steps (fix position, fix position tooltip)
 - Experimentals timelines (fix position)
-- Fix <hr> (set: width - $border-width, color - $border-color)
+- Fix hr tag (set: width - var border-width, color - var border-color)
 
 For example, my base font size has been increased from 20px to 28px.
 
