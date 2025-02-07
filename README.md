@@ -2,9 +2,41 @@
   <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
 </a>
 
-## Spectre.css
 
-[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
+This is a fork of the repository <a href="https://picturepan2.github.io/spectre">Yan Zhu</a>.
+
+## Project goal
+
+Eliminate absolute units of measurement and convert, if possible, into relative ones.
+In the current release, the author has some minor problems when changing the base font size.
+
+### What has been started or partially finished
+
+- Form radio
+- Form checkbox
+- Form buttons
+- Form labels
+- Components badges
+- Components chips
+- Components steps
+- Experimentals timelines
+
+For example, my base font size has been increased from 20px to 28px.
+
+### I don't plan
+- Fundamentally change the concept of the framework.
+- Add new classes.
+- Integrate JS, except as a separate addition that does not affect the existing structure.
+- Switch to CSS variables.
+
+## In general about the framework, my opinion
+
+
+Yan Zhu, made a wonderful product, this is a really working minimum and it is very necessary. It works well in both new browsers and old ones. 
+Yes, the development branch has stopped for 4 years, but this means, for me, that it is almost perfect. There is no point in adding new features; for this there are other, “modern” products that often change their concept and have enormous weight. 
+I don't promise constant support and development, I'm just trying to make perfection to perfection)))
+
+## Spectre.css (original description)
 
 Spectre.css is a lightweight, responsive and modern CSS framework.
 
