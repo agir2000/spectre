@@ -453,6 +453,13 @@ dl dd {
   margin: .4rem 0 .8rem 0;
 }
 
+hr {
+  background-color: #dadee4;
+  border: none;
+  color: #dadee4;
+  height: .08rem;
+}
+
 html:lang(zh),
 html:lang(zh-Hans),
 .lang-zh,

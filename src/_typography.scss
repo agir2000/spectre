@@ -127,3 +127,11 @@ dl {
     margin: $unit-2 0 $unit-4 0;
   }
 }
+
+// hr
+hr {
+    border: none; 
+    color: $border-color; 
+    background-color: $border-color; 
+    height: 0.08rem; 
+}
