@@ -12,14 +12,15 @@ In the current release, the author has some minor problems when changing the bas
 
 ### What has been started or partially finished
 
-- Form radio
-- Form checkbox
-- Form buttons
-- Form labels
-- Components badges
-- Components chips
-- Components steps
-- Experimentals timelines
+- Form radio (fix position)
+- Form checkbox (fix position)
+- Form buttons (fix position)
+- Form labels (fix position)
+- Components badges (fix position)
+- Components chips (fix position)
+- Components steps (fix position, fix position tooltip)
+- Experimentals timelines (fix position)
+- Fix <hr> (set: width - $border-width, color - $border-color)
 
 For example, my base font size has been increased from 20px to 28px.
 
