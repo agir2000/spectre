@@ -25,7 +25,7 @@ For example, my base font size has been increased from 20px to 28px.
 
 ### I don't plan
 - Fundamentally change the concept of the framework.
-- Add new classes.
+- Add new custom classes (Only fix existing ones).
 - Integrate JS, except as a separate addition that does not affect the existing structure.
 - Switch to CSS variables.
 
